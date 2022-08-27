@@ -13,12 +13,12 @@ $h1.classList.add( 'titulo' );
 $article.classList.add( 'fondoTransparente' );
 $section.classList.add( 'fondoCRUD' );
 
-$h1.addEventListener('mouseover',() => {
+$h1.addEventListener('mouseover',function(){
     this.style.color = 'red';
     console.log(this)
 });
 
-$h1.addEventListener('mouseleave',() => {
+$h1.addEventListener('mouseleave',function(){
     this.style.color = 'black';
 });
 

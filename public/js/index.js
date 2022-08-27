@@ -34,5 +34,5 @@ $logo.addEventListener('click', () => {
 });
 
 $menu.addEventListener('mouseleave', () => {
-    this.classList.remove('mostrar');
+    $menu.classList.remove('mostrar');
 });
